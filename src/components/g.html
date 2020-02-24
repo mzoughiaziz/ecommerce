@@ -1,0 +1,16 @@
+<div id="shopping-cart">
+    <div class="txt-heading">Shopping Cart </div>
+
+        <div class="product-item">
+            <div class="product-image"><img src=""></div>
+            <div><strong></strong></div>
+            <div class="product-price"></div>
+            <div>Quantity: </div>
+            <div class="btnRemoveAction" id="<?php echo $item["code"]; ?>"><a href="shopping_cart.php?action=remove&code=<?php echo $item["code"]; ?>" title="Remove from Cart">x</a></div>
+        </div>
+
+    <div class="cart_footer_link">
+    <a href="shopping_cart.php?action=empty">Clear Cart</a>
+    <a href="index.php" title="Cart">Continue Shopping</a>
+    </div>
+    </div>
